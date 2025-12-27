@@ -115,15 +115,10 @@ const ImageEditor = ({ imageFile, onBack, onEditComplete }) => {
   };
 
   const presetPrompts = [
-    'Enhance colors and make more vibrant',
-    'Convert to black and white',
-    'Add artistic painting effect',
-    'Remove background',
-    'Improve lighting and contrast',
-    'Add vintage film look',
-    'Make it look professional',
-    'Add dreamy soft focus effect',
-    'chỉnh thời gian thành 11:11'
+    'chỉnh thời gian thành 6h30',
+    'chỉnh thời gian thành 12h30',
+    'chỉnh thời gian thành 17h30',
+    'chỉnh thời gian thành 22h30',
   ];
 
   // If we have a result, show the ImageResult component
